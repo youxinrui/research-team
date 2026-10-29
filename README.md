@@ -54,10 +54,29 @@ npm run dev            # 默认 http://127.0.0.1:5173
 
 ## 评测
 
-| 指标 | 数值 | 说明 |
-| --- | --- | --- |
-| 检索命中率 | TBD | `scripts/run_retrieval_eval.py` |
-| 端到端报告质量 | TBD | `scripts/run_e2e_eval.py` |
-| 单元测试通过率 | TBD | `pytest` |
+### 检索评测（77 条正例 / 12 条反例 / 18 个知识库片段，Embedding：`BAAI/bge-m3`）
 
-> 评测结果原始文件见 `eval/results.md`、`eval/e2e_results.md`，正式数字确认后填入上表。
+| 方式 | Recall@3 | Recall@5 | MRR |
+| --- | --- | --- | --- |
+| vector | 0.935 | 0.961 | 0.852 |
+| bm25 | 0.961 | 0.961 | 0.910 |
+| hybrid | 0.961 | 0.961 | 0.910 |
+
+命中阈值（vec_min=0.55, bm25_min=5.0）：正例命中率 **0.909**，反例误命中率 **0.000**。
+
+### 端到端评测（20 个主题，模型 `deepseek-ai/DeepSeek-V3`）
+
+| 指标 | 数值 |
+| --- | --- |
+| 任务完成率 | 100%（20/20） |
+| 引用有效率 | 100% |
+| 首次审校通过率 | 5% |
+| 平均返工次数 | 1.60 |
+| 平均耗时 | 112.5s（P50 119.8s / P95 168.1s） |
+| 平均 tokens | 8235（输入 5513 / 输出 2722） |
+
+### 单元测试
+
+`pytest`：**56 passed**
+
+> 评测明细见 [eval/results.md](eval/results.md)（检索）与 [eval/e2e_results.md](eval/e2e_results.md)（端到端）；复现脚本：`scripts/run_retrieval_eval.py`、`scripts/run_e2e_eval.py`。
