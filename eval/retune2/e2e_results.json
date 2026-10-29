@@ -1,0 +1,198 @@
+{
+  "run_at": "2026-10-29T13:46:16",
+  "model": "deepseek-ai/DeepSeek-V3",
+  "pricing": {
+    "input_per_m": 0.0,
+    "output_per_m": 0.0
+  },
+  "runs": [
+    {
+      "id": "t04",
+      "topic": "Prompt 结构化输出与 function calling",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 38.45,
+      "tokens": {
+        "input": 2842,
+        "output": 1124,
+        "total": 3966,
+        "calls": 3
+      },
+      "revisions": 0,
+      "steps": 5,
+      "review_calls": 1,
+      "first_review_passed": true,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 3,
+        "web": 0
+      },
+      "citation_count": 13,
+      "invalid_citation_count": 0,
+      "report_path": "e:\\demo\\实操项目\\demo4\\eval\\retune2\\e2e_reports\\e2e-t04.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t05",
+      "topic": "MCP 协议如何封装搜索工具",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 92.62,
+      "tokens": {
+        "input": 4224,
+        "output": 1765,
+        "total": 5989,
+        "calls": 5
+      },
+      "revisions": 1,
+      "steps": 7,
+      "review_calls": 2,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 2,
+        "web": 0
+      },
+      "citation_count": 13,
+      "invalid_citation_count": 0,
+      "report_path": "e:\\demo\\实操项目\\demo4\\eval\\retune2\\e2e_reports\\e2e-t05.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t09",
+      "topic": "RAG 评测指标 Recall 与 MRR",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 36.92,
+      "tokens": {
+        "input": 3063,
+        "output": 1003,
+        "total": 4066,
+        "calls": 3
+      },
+      "revisions": 0,
+      "steps": 5,
+      "review_calls": 1,
+      "first_review_passed": true,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 3,
+        "web": 0
+      },
+      "citation_count": 17,
+      "invalid_citation_count": 0,
+      "report_path": "e:\\demo\\实操项目\\demo4\\eval\\retune2\\e2e_reports\\e2e-t09.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t13",
+      "topic": "开源大模型最新进展",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 98.46,
+      "tokens": {
+        "input": 6873,
+        "output": 2509,
+        "total": 9382,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 5
+      },
+      "citation_count": 13,
+      "invalid_citation_count": 0,
+      "report_path": "e:\\demo\\实操项目\\demo4\\eval\\retune2\\e2e_reports\\e2e-t13.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t17",
+      "topic": "咖啡行业消费趋势",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 44.16,
+      "tokens": {
+        "input": 2148,
+        "output": 754,
+        "total": 2902,
+        "calls": 3
+      },
+      "revisions": 0,
+      "steps": 5,
+      "review_calls": 1,
+      "first_review_passed": true,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 0,
+        "web": 4
+      },
+      "citation_count": 15,
+      "invalid_citation_count": 0,
+      "report_path": "e:\\demo\\实操项目\\demo4\\eval\\retune2\\e2e_reports\\e2e-t17.md",
+      "cost": 0.0
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "success": 5,
+    "success_rate": 1.0,
+    "first_pass_reviewed": 5,
+    "first_pass_rate": 0.6,
+    "avg_revisions": 0.6,
+    "avg_latency_s": 62.122,
+    "p50_latency_s": 44.16,
+    "p95_latency_s": 97.292,
+    "avg_input_tokens": 3830.0,
+    "avg_output_tokens": 1431.0,
+    "avg_total_tokens": 5261.0,
+    "citation_count": 71,
+    "invalid_citation_count": 0,
+    "invalid_citation_rate": 0.0
+  },
+  "by_category": {
+    "kb": {
+      "total": 3,
+      "success": 3,
+      "success_rate": 1.0,
+      "first_pass_reviewed": 3,
+      "first_pass_rate": 0.6666666666666666,
+      "avg_revisions": 0.3333333333333333,
+      "avg_latency_s": 55.99666666666667,
+      "p50_latency_s": 38.45,
+      "p95_latency_s": 87.203,
+      "avg_input_tokens": 3376.3333333333335,
+      "avg_output_tokens": 1297.3333333333333,
+      "avg_total_tokens": 4673.666666666667,
+      "citation_count": 43,
+      "invalid_citation_count": 0,
+      "invalid_citation_rate": 0.0
+    },
+    "web": {
+      "total": 2,
+      "success": 2,
+      "success_rate": 1.0,
+      "first_pass_reviewed": 2,
+      "first_pass_rate": 0.5,
+      "avg_revisions": 1.0,
+      "avg_latency_s": 71.31,
+      "p50_latency_s": 71.31,
+      "p95_latency_s": 95.74499999999999,
+      "avg_input_tokens": 4510.5,
+      "avg_output_tokens": 1631.5,
+      "avg_total_tokens": 6142.0,
+      "citation_count": 28,
+      "invalid_citation_count": 0,
+      "invalid_citation_rate": 0.0
+    }
+  }
+}

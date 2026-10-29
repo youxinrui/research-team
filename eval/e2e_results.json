@@ -275,22 +275,292 @@
       "invalid_citation_count": 0,
       "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t10.md",
       "cost": 0.0
+    },
+    {
+      "id": "t11",
+      "topic": "2026 年 AI 芯片市场格局",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 181.95,
+      "tokens": {
+        "input": 7724,
+        "output": 3384,
+        "total": 11108,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 4
+      },
+      "citation_count": 22,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t11.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t12",
+      "topic": "新能源汽车固态电池进展",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 124.53,
+      "tokens": {
+        "input": 5419,
+        "output": 2962,
+        "total": 8381,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 5
+      },
+      "citation_count": 18,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t12.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t13",
+      "topic": "开源大模型最新进展",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 167.37,
+      "tokens": {
+        "input": 8132,
+        "output": 4390,
+        "total": 12522,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 5
+      },
+      "citation_count": 38,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t13.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t14",
+      "topic": "低空经济政策现状",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 122.89,
+      "tokens": {
+        "input": 6941,
+        "output": 3358,
+        "total": 10299,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 5
+      },
+      "citation_count": 25,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t14.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t15",
+      "topic": "量子计算近期突破",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 130.72,
+      "tokens": {
+        "input": 7584,
+        "output": 3982,
+        "total": 11566,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 5
+      },
+      "citation_count": 27,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t15.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t16",
+      "topic": "中小企业数字化转型路径",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 126.28,
+      "tokens": {
+        "input": 4812,
+        "output": 2770,
+        "total": 7582,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 2
+      },
+      "citation_count": 20,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t16.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t17",
+      "topic": "咖啡行业消费趋势",
+      "category": "web",
+      "success": true,
+      "error": null,
+      "latency_s": 134.91,
+      "tokens": {
+        "input": 6318,
+        "output": 3440,
+        "total": 9758,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 4
+      },
+      "citation_count": 35,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t17.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t18",
+      "topic": "远程办公对生产力的影响",
+      "category": "mixed",
+      "success": true,
+      "error": null,
+      "latency_s": 116.75,
+      "tokens": {
+        "input": 5375,
+        "output": 2717,
+        "total": 8092,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 3
+      },
+      "citation_count": 15,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t18.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t19",
+      "topic": "城市垃圾分类的难点",
+      "category": "mixed",
+      "success": true,
+      "error": null,
+      "latency_s": 99.15,
+      "tokens": {
+        "input": 4773,
+        "output": 2510,
+        "total": 7283,
+        "calls": 5
+      },
+      "revisions": 1,
+      "steps": 7,
+      "review_calls": 2,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 0,
+        "web": 4
+      },
+      "citation_count": 22,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t19.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t20",
+      "topic": "如何给小学生解释光合作用",
+      "category": "general",
+      "success": true,
+      "error": null,
+      "latency_s": 126.04,
+      "tokens": {
+        "input": 6072,
+        "output": 3331,
+        "total": 9403,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 0,
+        "web": 4
+      },
+      "citation_count": 37,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t20.md",
+      "cost": 0.0
     }
   ],
   "summary": {
-    "total": 10,
-    "success": 10,
+    "total": 20,
+    "success": 20,
     "success_rate": 1.0,
-    "first_pass_reviewed": 10,
-    "first_pass_rate": 0.1,
-    "avg_revisions": 1.3,
-    "avg_latency_s": 91.92,
-    "p50_latency_s": 88.14500000000001,
-    "p95_latency_s": 144.548,
-    "avg_input_tokens": 4711.8,
-    "avg_output_tokens": 2158.6,
-    "avg_total_tokens": 6870.4,
-    "citation_count": 134,
+    "first_pass_reviewed": 20,
+    "first_pass_rate": 0.05,
+    "avg_revisions": 1.6,
+    "avg_latency_s": 112.48949999999999,
+    "p50_latency_s": 119.82,
+    "p95_latency_s": 168.09900000000002,
+    "avg_input_tokens": 5513.4,
+    "avg_output_tokens": 2721.5,
+    "avg_total_tokens": 8234.9,
+    "citation_count": 393,
     "invalid_citation_count": 0,
     "invalid_citation_rate": 0.0
   },
@@ -309,6 +579,57 @@
       "avg_output_tokens": 2158.6,
       "avg_total_tokens": 6870.4,
       "citation_count": 134,
+      "invalid_citation_count": 0,
+      "invalid_citation_rate": 0.0
+    },
+    "web": {
+      "total": 7,
+      "success": 7,
+      "success_rate": 1.0,
+      "first_pass_reviewed": 7,
+      "first_pass_rate": 0.0,
+      "avg_revisions": 2.0,
+      "avg_latency_s": 141.2357142857143,
+      "p50_latency_s": 130.72,
+      "p95_latency_s": 177.576,
+      "avg_input_tokens": 6704.285714285715,
+      "avg_output_tokens": 3469.4285714285716,
+      "avg_total_tokens": 10173.714285714286,
+      "citation_count": 185,
+      "invalid_citation_count": 0,
+      "invalid_citation_rate": 0.0
+    },
+    "mixed": {
+      "total": 2,
+      "success": 2,
+      "success_rate": 1.0,
+      "first_pass_reviewed": 2,
+      "first_pass_rate": 0.0,
+      "avg_revisions": 1.5,
+      "avg_latency_s": 107.95,
+      "p50_latency_s": 107.95,
+      "p95_latency_s": 115.87,
+      "avg_input_tokens": 5074.0,
+      "avg_output_tokens": 2613.5,
+      "avg_total_tokens": 7687.5,
+      "citation_count": 37,
+      "invalid_citation_count": 0,
+      "invalid_citation_rate": 0.0
+    },
+    "general": {
+      "total": 1,
+      "success": 1,
+      "success_rate": 1.0,
+      "first_pass_reviewed": 1,
+      "first_pass_rate": 0.0,
+      "avg_revisions": 2.0,
+      "avg_latency_s": 126.04,
+      "p50_latency_s": 126.04,
+      "p95_latency_s": 126.04,
+      "avg_input_tokens": 6072.0,
+      "avg_output_tokens": 3331.0,
+      "avg_total_tokens": 9403.0,
+      "citation_count": 37,
       "invalid_citation_count": 0,
       "invalid_citation_rate": 0.0
     }

@@ -8,5 +8,8 @@ knowledge/.index/
 web/node_modules/
 web/dist/
 eval/e2e_reports/
+eval/**/e2e_reports/
+eval/*_run.log
+eval/*.log
 install.log
 *.egg-info/

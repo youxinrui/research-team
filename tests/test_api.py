@@ -99,6 +99,27 @@ def test_full_session_flow(tmp_path):
     assert edited["message"] == "报告已更新"
 
 
+def test_serve_web_mounts_static(tmp_path, monkeypatch):
+    dist = tmp_path / "dist"
+    dist.mkdir()
+    (dist / "index.html").write_text("<div id=\"app\">frontend</div>", encoding="utf-8")
+    monkeypatch.setenv("SERVE_WEB", "1")
+    monkeypatch.setenv("WEB_DIST", str(dist))
+    settings = FakeSettings(tmp_path, tmp_path / "chat.db")
+    manager = SessionManager(
+        settings,
+        background=False,
+        chat_factory=lambda events: FakeChat(events, tmp_path),
+    )
+    client = TestClient(create_app(settings, manager=manager))
+
+    response = client.get("/")
+
+    assert response.status_code == 200
+    assert "<div id=\"app\">frontend</div>" in response.text
+    assert client.get("/api/health").json() == {"status": "ok"}
+
+
 def test_unknown_session_returns_404(tmp_path):
     client = make_client(tmp_path)
 

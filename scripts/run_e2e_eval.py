@@ -254,10 +254,16 @@ def main() -> int:
     parser.add_argument("--topics", type=Path, default=DEFAULT_TOPICS)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument(
+        "--ids", help="只跑指定主题 ID，逗号分隔，例如 t04,t13"
+    )
     args = parser.parse_args()
 
     settings = load_settings()
     topics = load_topics(args.topics)
+    if args.ids:
+        wanted = {item.strip() for item in args.ids.split(",") if item.strip()}
+        topics = [item for item in topics if item["id"] in wanted]
     if args.limit:
         topics = topics[: args.limit]
 

@@ -1,0 +1,14 @@
+.venv
+.env
+.git
+.gitignore
+output
+eval/e2e_reports
+eval/**/e2e_reports
+web/node_modules
+knowledge/.index
+__pycache__
+*.pyc
+.pytest_cache
+*.egg-info
+install.log
