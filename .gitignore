@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+output/
+knowledge/.index/
+web/node_modules/
+web/dist/
+eval/e2e_reports/
+install.log
+*.egg-info/

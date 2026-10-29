@@ -1,0 +1,316 @@
+{
+  "run_at": "2026-10-29T12:44:56",
+  "model": "deepseek-ai/DeepSeek-V3",
+  "pricing": {
+    "input_per_m": 0.0,
+    "output_per_m": 0.0
+  },
+  "runs": [
+    {
+      "id": "t01",
+      "topic": "LangGraph 断点续跑机制",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 71.62,
+      "tokens": {
+        "input": 3959,
+        "output": 1798,
+        "total": 5757,
+        "calls": 5
+      },
+      "revisions": 1,
+      "steps": 7,
+      "review_calls": 2,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 2,
+        "web": 0
+      },
+      "citation_count": 8,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t01.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t02",
+      "topic": "RAG 混合检索阈值怎么定",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 62.96,
+      "tokens": {
+        "input": 4358,
+        "output": 1817,
+        "total": 6175,
+        "calls": 5
+      },
+      "revisions": 1,
+      "steps": 7,
+      "review_calls": 2,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 2,
+        "web": 0
+      },
+      "citation_count": 9,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t02.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t03",
+      "topic": "多智能体 supervisor 模式",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 43.0,
+      "tokens": {
+        "input": 1635,
+        "output": 820,
+        "total": 2455,
+        "calls": 3
+      },
+      "revisions": 0,
+      "steps": 5,
+      "review_calls": 1,
+      "first_review_passed": true,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 1,
+        "web": 0
+      },
+      "citation_count": 16,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t03.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t04",
+      "topic": "Prompt 结构化输出与 function calling",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 107.04,
+      "tokens": {
+        "input": 7040,
+        "output": 3033,
+        "total": 10073,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 3,
+        "web": 0
+      },
+      "citation_count": 17,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t04.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t05",
+      "topic": "MCP 协议如何封装搜索工具",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 102.03,
+      "tokens": {
+        "input": 6220,
+        "output": 2889,
+        "total": 9109,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 2,
+        "web": 0
+      },
+      "citation_count": 16,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t05.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t06",
+      "topic": "Docker 部署 Python AI 应用",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 143.58,
+      "tokens": {
+        "input": 3227,
+        "output": 1707,
+        "total": 4934,
+        "calls": 5
+      },
+      "revisions": 1,
+      "steps": 7,
+      "review_calls": 2,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 1,
+        "web": 0
+      },
+      "citation_count": 8,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t06.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t07",
+      "topic": "Ollama 本地部署 Qwen",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 67.34,
+      "tokens": {
+        "input": 3242,
+        "output": 1653,
+        "total": 4895,
+        "calls": 5
+      },
+      "revisions": 1,
+      "steps": 7,
+      "review_calls": 2,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 1,
+        "web": 0
+      },
+      "citation_count": 6,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t07.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t08",
+      "topic": "向量库选型 Chroma 与 pgvector",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 84.64,
+      "tokens": {
+        "input": 4504,
+        "output": 2087,
+        "total": 6591,
+        "calls": 5
+      },
+      "revisions": 1,
+      "steps": 7,
+      "review_calls": 2,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 2,
+        "web": 0
+      },
+      "citation_count": 25,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t08.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t09",
+      "topic": "RAG 评测指标 Recall 与 MRR",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 145.34,
+      "tokens": {
+        "input": 8364,
+        "output": 3517,
+        "total": 11881,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": false,
+      "sources": {
+        "kb": 3,
+        "web": 0
+      },
+      "citation_count": 22,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t09.md",
+      "cost": 0.0
+    },
+    {
+      "id": "t10",
+      "topic": "本地模型量化 GGUF",
+      "category": "kb",
+      "success": true,
+      "error": null,
+      "latency_s": 91.65,
+      "tokens": {
+        "input": 4569,
+        "output": 2265,
+        "total": 6834,
+        "calls": 7
+      },
+      "revisions": 2,
+      "steps": 9,
+      "review_calls": 3,
+      "first_review_passed": false,
+      "final_review_passed": true,
+      "sources": {
+        "kb": 1,
+        "web": 0
+      },
+      "citation_count": 7,
+      "invalid_citation_count": 0,
+      "report_path": "E:\\demo\\实操项目\\demo4\\eval\\e2e_reports\\e2e-t10.md",
+      "cost": 0.0
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "success": 10,
+    "success_rate": 1.0,
+    "first_pass_reviewed": 10,
+    "first_pass_rate": 0.1,
+    "avg_revisions": 1.3,
+    "avg_latency_s": 91.92,
+    "p50_latency_s": 88.14500000000001,
+    "p95_latency_s": 144.548,
+    "avg_input_tokens": 4711.8,
+    "avg_output_tokens": 2158.6,
+    "avg_total_tokens": 6870.4,
+    "citation_count": 134,
+    "invalid_citation_count": 0,
+    "invalid_citation_rate": 0.0
+  },
+  "by_category": {
+    "kb": {
+      "total": 10,
+      "success": 10,
+      "success_rate": 1.0,
+      "first_pass_reviewed": 10,
+      "first_pass_rate": 0.1,
+      "avg_revisions": 1.3,
+      "avg_latency_s": 91.92,
+      "p50_latency_s": 88.14500000000001,
+      "p95_latency_s": 144.548,
+      "avg_input_tokens": 4711.8,
+      "avg_output_tokens": 2158.6,
+      "avg_total_tokens": 6870.4,
+      "citation_count": 134,
+      "invalid_citation_count": 0,
+      "invalid_citation_rate": 0.0
+    }
+  }
+}

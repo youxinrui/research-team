@@ -1,0 +1,89 @@
+{"id": "q01", "query": "DeepSeek 支持 embedding 吗", "expected": ["deepseek.md#chunk-0"], "type": "positive"}
+{"id": "q02", "query": "怎么用 OpenAI SDK 调用 DeepSeek", "expected": ["deepseek.md#chunk-0"], "type": "positive"}
+{"id": "q03", "query": "国内有哪些 embedding 服务可以给 RAG 用", "expected": ["deepseek.md#chunk-0"], "type": "positive"}
+{"id": "q04", "query": "DeepSeek 的接口能做什么", "expected": ["deepseek.md#chunk-0"], "type": "positive"}
+{"id": "q05", "query": "bge-m3 和 text-embedding-v3 在哪里调用", "expected": ["deepseek.md#chunk-0"], "type": "positive"}
+{"id": "q06", "query": "更换 embedding 模型后需要重建索引吗", "expected": ["deepseek.md#chunk-0", "deepseek.md#chunk-1"], "type": "positive"}
+{"id": "q07", "query": "为什么索引和查询要用同一个 embedding 模型", "expected": ["deepseek.md#chunk-0", "deepseek.md#chunk-1"], "type": "positive"}
+{"id": "q08", "query": "调用大模型接口时怎么设置超时和重试", "expected": ["deepseek.md#chunk-1"], "type": "positive"}
+{"id": "q09", "query": "重试次数太多会有什么问题", "expected": ["deepseek.md#chunk-1"], "type": "positive"}
+{"id": "q10", "query": "索引向量维度不一致会怎样", "expected": ["deepseek.md#chunk-0", "deepseek.md#chunk-1"], "type": "positive"}
+{"id": "q11", "query": "LangGraph 的 StateGraph 是什么", "expected": ["langgraph.md#chunk-0"], "type": "positive"}
+{"id": "q12", "query": "checkpoint 是怎么保存状态的", "expected": ["langgraph.md#chunk-0"], "type": "positive"}
+{"id": "q13", "query": "thread_id 在 LangGraph 里有什么用", "expected": ["langgraph.md#chunk-0"], "type": "positive"}
+{"id": "q14", "query": "SqliteSaver 和 PostgresSaver 怎么选", "expected": ["langgraph.md#chunk-0"], "type": "positive"}
+{"id": "q15", "query": "LangGraph 支持哪些持久化后端", "expected": ["langgraph.md#chunk-0"], "type": "positive"}
+{"id": "q16", "query": "任务中断后怎么恢复执行", "expected": ["langgraph.md#chunk-1"], "type": "positive"}
+{"id": "q17", "query": "断点续跑时已完成的节点会重新跑吗", "expected": ["langgraph.md#chunk-1"], "type": "positive"}
+{"id": "q18", "query": "恢复任务时传 None 是什么意思", "expected": ["langgraph.md#chunk-1"], "type": "positive"}
+{"id": "q19", "query": "为什么工具需要保证幂等", "expected": ["langgraph.md#chunk-1"], "type": "positive"}
+{"id": "q20", "query": "中断发生在节点执行中会怎样", "expected": ["langgraph.md#chunk-1"], "type": "positive"}
+{"id": "q21", "query": "多智能体系统是什么", "expected": ["multi_agent.md#chunk-0"], "type": "positive"}
+{"id": "q22", "query": "多智能体有哪些协作架构", "expected": ["multi_agent.md#chunk-0"], "type": "positive"}
+{"id": "q23", "query": "supervisor 和 handoff 模式有什么区别", "expected": ["multi_agent.md#chunk-0"], "type": "positive"}
+{"id": "q24", "query": "多智能体为什么用共享状态而不是自由对话", "expected": ["multi_agent.md#chunk-0"], "type": "positive"}
+{"id": "q25", "query": "多智能体的成本和风险有哪些", "expected": ["multi_agent.md#chunk-0"], "type": "positive"}
+{"id": "q26", "query": "RAG 的完整流程是什么", "expected": ["rag.md#chunk-0"], "type": "positive"}
+{"id": "q27", "query": "RAG 能解决什么问题", "expected": ["rag.md#chunk-0"], "type": "positive"}
+{"id": "q28", "query": "BM25 和向量检索各擅长什么", "expected": ["rag.md#chunk-0"], "type": "positive"}
+{"id": "q29", "query": "RRF 是怎么融合两路检索结果的", "expected": ["rag.md#chunk-0", "rag.md#chunk-1"], "type": "positive"}
+{"id": "q30", "query": "文本分块时为什么要保留重叠", "expected": ["rag.md#chunk-0"], "type": "positive"}
+{"id": "q31", "query": "怎么判断知识库有没有命中", "expected": ["rag.md#chunk-1"], "type": "positive"}
+{"id": "q32", "query": "检索分数低于阈值时应该怎么办", "expected": ["rag.md#chunk-1"], "type": "positive"}
+{"id": "q33", "query": "为什么不能强行使用低质量片段", "expected": ["rag.md#chunk-1"], "type": "positive"}
+{"id": "q34", "query": "命中判断要看哪些信号", "expected": ["rag.md#chunk-1"], "type": "positive"}
+{"id": "q35", "query": "知识库没命中时如何回退到网络搜索", "expected": ["rag.md#chunk-1"], "type": "positive"}
+{"id": "n01", "query": "北京今天天气怎么样", "expected": [], "type": "negative"}
+{"id": "n02", "query": "红烧肉的家常做法", "expected": [], "type": "negative"}
+{"id": "n03", "query": "2026年诺贝尔物理学奖得主是谁", "expected": [], "type": "negative"}
+{"id": "n04", "query": "如何学习弹钢琴", "expected": [], "type": "negative"}
+{"id": "n05", "query": "英超联赛最新积分榜", "expected": [], "type": "negative"}
+{"id": "n06", "query": "怎么用 Python 读取 CSV 文件", "expected": [], "type": "negative"}
+{"id": "n07", "query": "推荐几部科幻电影", "expected": [], "type": "negative"}
+{"id": "n08", "query": "明天股票市场会涨吗", "expected": [], "type": "negative"}
+{"id": "q36", "query": "一个可维护的 prompt 应该包含哪些部分", "expected": ["prompt_engineering.md#chunk-0"], "type": "positive"}
+{"id": "q37", "query": "怎么让模型稳定输出 JSON", "expected": ["prompt_engineering.md#chunk-0"], "type": "positive"}
+{"id": "q38", "query": "JSON Schema 约束和普通 JSON 解析有什么区别", "expected": ["prompt_engineering.md#chunk-0"], "type": "positive"}
+{"id": "q39", "query": "function calling 的完整流程是什么", "expected": ["prompt_engineering.md#chunk-1"], "type": "positive"}
+{"id": "q40", "query": "工具执行需要哪些保护措施", "expected": ["prompt_engineering.md#chunk-1"], "type": "positive"}
+{"id": "q41", "query": "MCP 是什么协议", "expected": ["mcp.md#chunk-0"], "type": "positive"}
+{"id": "q42", "query": "MCP Server 可以暴露哪三类能力", "expected": ["mcp.md#chunk-0"], "type": "positive"}
+{"id": "q43", "query": "MCP 支持哪些传输方式", "expected": ["mcp.md#chunk-0"], "type": "positive"}
+{"id": "q44", "query": "MCP 和 function calling 是什么关系", "expected": ["mcp.md#chunk-1"], "type": "positive"}
+{"id": "q45", "query": "接入 MCP 要注意哪些安全问题", "expected": ["mcp.md#chunk-1"], "type": "positive"}
+{"id": "q46", "query": "Python 应用怎么做多阶段 Docker 构建", "expected": ["deployment.md#chunk-0"], "type": "positive"}
+{"id": "q47", "query": "docker-compose 一般编排哪些服务", "expected": ["deployment.md#chunk-0"], "type": "positive"}
+{"id": "q48", "query": "GitHub Actions 里应该跑哪些检查", "expected": ["deployment.md#chunk-0"], "type": "positive"}
+{"id": "q49", "query": "Linux 上怎么部署 Python 服务", "expected": ["deployment.md#chunk-1"], "type": "positive"}
+{"id": "q50", "query": "部署后要关注哪些可观测性指标", "expected": ["deployment.md#chunk-1"], "type": "positive"}
+{"id": "q51", "query": "Ollama 和 vLLM 有什么区别", "expected": ["local_model.md#chunk-0"], "type": "positive"}
+{"id": "q52", "query": "怎么让现有代码接本地 Ollama", "expected": ["local_model.md#chunk-0"], "type": "positive"}
+{"id": "q53", "query": "GGUF 量化级别怎么选", "expected": ["local_model.md#chunk-0"], "type": "positive"}
+{"id": "q54", "query": "本地模型和云端 API 怎么取舍", "expected": ["local_model.md#chunk-0"], "type": "positive"}
+{"id": "q55", "query": "检索质量用什么指标衡量", "expected": ["evaluation.md#chunk-0"], "type": "positive"}
+{"id": "q56", "query": "Faithfulness 和 Answer Relevancy 分别衡量什么", "expected": ["evaluation.md#chunk-0"], "type": "positive"}
+{"id": "q57", "query": "这些评测指标和 RAGAS 有什么关系", "expected": ["evaluation.md#chunk-0"], "type": "positive"}
+{"id": "q58", "query": "评测集应该怎么构造", "expected": ["evaluation.md#chunk-1"], "type": "positive"}
+{"id": "q59", "query": "LLM-as-judge 怎么降低标注成本", "expected": ["evaluation.md#chunk-1"], "type": "positive"}
+{"id": "q60", "query": "超参数应该怎么确定", "expected": ["evaluation.md#chunk-1"], "type": "positive"}
+{"id": "q61", "query": "小规模向量检索可以用什么方案", "expected": ["vector_db.md#chunk-0"], "type": "positive"}
+{"id": "q62", "query": "Chroma 和 pgvector 各适合什么场景", "expected": ["vector_db.md#chunk-0"], "type": "positive"}
+{"id": "q63", "query": "Milvus 适合多大规模", "expected": ["vector_db.md#chunk-0"], "type": "positive"}
+{"id": "q64", "query": "HNSW 和 IVF 索引有什么区别", "expected": ["vector_db.md#chunk-1"], "type": "positive"}
+{"id": "q65", "query": "向量库选型要考虑哪些维度", "expected": ["vector_db.md#chunk-1"], "type": "positive"}
+{"id": "n09", "query": "React 的 useEffect 依赖数组怎么写", "expected": [], "type": "negative"}
+{"id": "n10", "query": "MySQL 索引失效的常见原因", "expected": [], "type": "negative"}
+{"id": "n11", "query": "JWT 鉴权怎么做", "expected": [], "type": "negative"}
+{"id": "n12", "query": "Kubernetes Pod 一直重启怎么排查", "expected": [], "type": "negative"}
+{"id": "q66", "query": "任务做到一半断网了还能接着做吗", "expected": ["langgraph.md#chunk-1"], "type": "positive"}
+{"id": "q67", "query": "多个角色怎么分工完成一份报告", "expected": ["multi_agent.md#chunk-0"], "type": "positive"}
+{"id": "q68", "query": "知识库没有答案时应该直接编造吗", "expected": ["rag.md#chunk-1"], "type": "positive"}
+{"id": "q69", "query": "怎么判断模型回答有没有胡说", "expected": ["evaluation.md#chunk-0"], "type": "positive"}
+{"id": "q70", "query": "把公司内部文档接进大模型有哪几步", "expected": ["rag.md#chunk-0"], "type": "positive"}
+{"id": "q71", "query": "为什么换了个向量化服务后搜索结果全乱了", "expected": ["deepseek.md#chunk-1"], "type": "positive"}
+{"id": "q72", "query": "程序打包后换台机器还能跑吗", "expected": ["deployment.md#chunk-0"], "type": "positive"}
+{"id": "q73", "query": "显存不够时怎么把模型压小", "expected": ["local_model.md#chunk-0"], "type": "positive"}
+{"id": "q74", "query": "怎么让模型按固定字段返回结果", "expected": ["prompt_engineering.md#chunk-0"], "type": "positive"}
+{"id": "q75", "query": "数据涨到几百万条后检索该怎么扩容", "expected": ["vector_db.md#chunk-0"], "type": "positive"}
+{"id": "q76", "query": "工具太多时模型怎么知道该调用哪个", "expected": ["mcp.md#chunk-0", "prompt_engineering.md#chunk-1"], "type": "positive"}
+{"id": "q77", "query": "上线后怎么知道系统有没有出问题", "expected": ["deployment.md#chunk-1"], "type": "positive"}
